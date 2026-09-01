@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — PINNCOR</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<style>
+  :root{color-scheme:light dark;--paper:#f2f0ea;--ink:#161513;--muted:#57544c;--gold:#9a7c3a}
+  @media (prefers-color-scheme: dark){:root{--paper:#141312;--ink:#e9e5da;--muted:#9d988c;--gold:#c9a962}}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--paper);color:var(--ink);min-height:100vh;display:grid;place-items:center;
+    font-family:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;padding:24px}
+  main{max-width:34rem}
+  .num{font-weight:700;font-size:clamp(5rem,20vw,9rem);line-height:.9;letter-spacing:-.04em;
+    color:transparent;-webkit-text-stroke:1.5px var(--ink)}
+  @supports not (-webkit-text-stroke:1px black){.num{color:var(--ink)}}
+  h1{font-size:1.15rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin:26px 0 10px}
+  p{color:var(--muted);line-height:1.6;margin-bottom:6px}
+  a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:4px}
+  .en{margin-top:18px;border-top:1px solid var(--muted);padding-top:14px}
+</style>
+</head>
+<body>
+<main>
+  <div class="num" aria-hidden="true">404</div>
+  <h1>Esta página no existe</h1>
+  <p>La dirección que buscas no está en este sitio. <a href="/">Volver a la portada</a>.</p>
+  <p class="en" lang="en">This page does not exist. <a href="/en/">Back to the home page</a>.</p>
+</main>
+</body>
+</html>

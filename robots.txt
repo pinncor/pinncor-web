@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://pinncor.com/sitemap.xml
